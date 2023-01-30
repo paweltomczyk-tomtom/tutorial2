@@ -17,5 +17,6 @@
         "patch"
       ]
     }
-  ]
+  ],
+  "separateMajorMinor": false
 }
