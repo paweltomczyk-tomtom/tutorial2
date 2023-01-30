@@ -3,23 +3,12 @@
   "extends": [
     "config:base"
   ],
-  "prHourlyLimit": 30
-  {
-  "groupName": "all dependencies",
-  "groupSlug": "all",
-  "lockFileMaintenance": {
-    "enabled": false
-  },
+  "prHourlyLimit": 30,
   "packageRules": [
     {
-      "groupName": "all dependencies",
-      "groupSlug": "all",
-      "matchPackagePatterns": [
-        "*"
-      ]
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true,
+      "group": "all"
     }
-  ],
-  "separateMajorMinor": false
-  }
-  
+  ]
 }
