@@ -4,6 +4,7 @@
     "config:base"
   ],
   "prHourlyLimit": 30,
+  "group": all,
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
