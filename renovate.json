@@ -4,10 +4,12 @@
     "config:base"
   ],
   "prHourlyLimit": 30,
+  {
   "groupName": "all dependencies",
   "groupSlug": "all",
   "lockFileMaintenance": {
-    "enabled": false,
+    "enabled": false
+  },
   "packageRules": [
     {
       "groupName": "all dependencies",
@@ -21,8 +23,8 @@
         "patch"
       ]
     }
-  ]
-}
+  ],
+  "separateMajorMinor": false
 }
 
 
