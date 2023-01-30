@@ -4,11 +4,17 @@
     "config:base"
   ],
   "prHourlyLimit": 30,
-  "group": all,
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": true,
+      {
+      "groupName": "all dependencies",
+      "groupSlug": "all",
+      "matchPackagePatterns": [
+        "*"
+      ]
+    }
     }
   ]
 }
