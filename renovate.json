@@ -3,7 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "prHourlyLimit": 30,
+  "prHourlyLimit": "30",
   {
   "groupName": "all dependencies",
   "groupSlug": "all",
