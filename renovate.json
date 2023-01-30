@@ -3,6 +3,11 @@
   "extends": [
     "config:base"
   ],
+  "groupName": "all dependencies",
+  "groupSlug": "all",
+  "lockFileMaintenance": {
+    "enabled": false
+  },
   "prHourlyLimit": 30,
   "packageRules": [
     {
