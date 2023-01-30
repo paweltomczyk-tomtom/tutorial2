@@ -4,17 +4,22 @@
     "config:base"
   ],
   "prHourlyLimit": 30,
+  {
+  "groupName": "all dependencies",
+  "groupSlug": "all",
+  "lockFileMaintenance": {
+    "enabled": false
+  },
   "packageRules": [
     {
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true,
-      {
       "groupName": "all dependencies",
       "groupSlug": "all",
       "matchPackagePatterns": [
         "*"
       ]
     }
-    }
+  ],
+  "separateMajorMinor": false
+  }
   ]
 }
