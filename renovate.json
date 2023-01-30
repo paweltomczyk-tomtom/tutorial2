@@ -7,11 +7,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
-    }
-  ],
-  [
-    {
+      "dependencyDashboardApproval": true,
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
       "matchPackagePatterns": [
