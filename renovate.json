@@ -11,6 +11,8 @@
   "prHourlyLimit": 30,
   "packageRules": [
     {
+      "prCreation": "manual",
+      "dependencyDashboardApproval": true,
       "groupName": "all dependencies",
       "groupSlug": "all",
       "matchPackagePatterns": [
@@ -23,7 +25,6 @@
       ]
     }
   ],
-  "prCreation": "manual",
   "separateMajorMinor": false,
   "schedule": "daily"
 }
