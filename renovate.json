@@ -3,6 +3,10 @@
   "extends": [
     "config:base"
   ],
+  "rangeStrategy": "widen",
+  "automerge": false,
+  "prCreation": "manual",
+  "dependencyDashboardApproval": true,
   "groupName": "all dependencies",
   "groupSlug": "all",
   "lockFileMaintenance": {
