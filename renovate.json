@@ -23,7 +23,9 @@
       ]
     }
   ],
-  "separateMajorMinor": false
+  "prCreation": "manual",
+  "separateMajorMinor": false,
+  "schedule": "daily"
 }
 
 
